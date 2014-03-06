@@ -3,7 +3,7 @@
 @using (Html.BeginForm("JsonLogin", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { id = "loginForm" }))
 {
     @Html.AntiForgeryToken()
-
+    <p>Test</p>
     <fieldset>
         <legend>Log in Form</legend>
         <ol>
